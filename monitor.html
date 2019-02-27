@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>监控信息1</title>
+</head>
+<body>
+    <table border="1">
+        <tr><td align="center" valign="center">服务器名称</td><td align="center" valign="center">{{ hostname }}</td></tr>
+        <tr><td align="center" valign="center">开机时间</td><td align="center" valign="center">{{ boot_time }}</td></tr>
+
+        <tr><td align="center" valign="center">cpu个数</td><td align="center" valign="center">{{ cpu_count }}</td></tr>
+        <tr><td align="center" valign="center">cpu利用率</td><td align="center" valign="center">{{ cpu_percent }}</td></tr>
+
+        <tr><td align="center" valign="center">内存总量</td><td align="center" valign="center">{{ mem_total }}</td></tr>
+        <tr><td align="center" valign="center">内存利用率</td><td align="center" valign="center">{{ mem_percent }}</td></tr>
+        <tr><td align="center" valign="center">内存已用空间</td><td align="center" valign="center">{{ mem_used }}</td></tr>
+        <tr><td align="center" valign="center">内存可用空间</td><td align="center" valign="center">{{ mem_free }}</td></tr>
+
+        <tr><td align="center" valign="center">磁盘空间总量</td><td align="center" valign="center">{{ disk_total }}</td></tr>
+        <tr><td align="center" valign="center">磁盘空间利用率</td><td align="center" valign="center">{{ disk_percent }}</td></tr>
+        <tr><td align="center" valign="center">磁盘已用空间</td><td align="center" valign="center">{{ disk_used }}</td></tr>
+        <tr><td align="center" valign="center">磁盘可用空间</td><td align="center" valign="center">{{ disk_free }}</td></tr>
+    </table>
+</body>
+</html>
